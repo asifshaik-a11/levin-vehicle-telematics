@@ -1,0 +1,66 @@
+RF test F1: 0.5714285714285714
+              precision    recall  f1-score   support
+
+           0       0.96      0.93      0.94        27
+           1       0.50      0.67      0.57         3
+
+    accuracy                           0.90        30
+   macro avg       0.73      0.80      0.76        30
+weighted avg       0.92      0.90      0.91        30
+
+GB test F1: 0.4444444444444444
+              precision    recall  f1-score   support
+
+           0       0.96      0.85      0.90        27
+           1       0.33      0.67      0.44         3
+
+    accuracy                           0.83        30
+   macro avg       0.65      0.76      0.67        30
+weighted avg       0.90      0.83      0.86        30
+
+             feature  importance
+16  harsh_score_like    0.011667
+8          min_decel    0.010000
+0       rows_first80    0.006667
+13  heavy_decel_rate    0.001667
+1         mean_speed    0.000000
+4   pct_time_over_80    0.000000
+5         stop_ratio    0.000000
+3       median_speed    0.000000
+2          max_speed    0.000000
+9          max_decel    0.000000
+6         idle_ratio    0.000000
+11          max_jerk   -0.006667
+RF test F1: 0.5714285714285714
+              precision    recall  f1-score   support
+
+           0       0.96      0.93      0.94        27
+           1       0.50      0.67      0.57         3
+
+    accuracy                           0.90        30
+   macro avg       0.73      0.80      0.76        30
+weighted avg       0.92      0.90      0.91        30
+
+GB test F1: 0.4444444444444444
+              precision    recall  f1-score   support
+
+           0       0.96      0.85      0.90        27
+           1       0.33      0.67      0.44         3
+
+    accuracy                           0.83        30
+   macro avg       0.65      0.76      0.67        30
+weighted avg       0.90      0.83      0.86        30
+
+             feature  importance
+16  harsh_score_like    0.011667
+8          min_decel    0.010000
+0       rows_first80    0.006667
+13  heavy_decel_rate    0.001667
+1         mean_speed    0.000000
+4   pct_time_over_80    0.000000
+5         stop_ratio    0.000000
+3       median_speed    0.000000
+2          max_speed    0.000000
+9          max_decel    0.000000
+6         idle_ratio    0.000000
+11          max_jerk   -0.006667
